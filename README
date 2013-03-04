@@ -1,0 +1,17 @@
+# For detailed explanation of the problem, refer to the paper http://research.microsoft.com/en-us/um/people/lamport/pubs/byz.pdf
+# For implementation overview, please read 'Implementation Overview.pdf' in this repo.
+
+# To compile
+make
+
+# To clean
+make clean
+
+# To generate keys and certificates
+# Make sure that mkcrypto.sh is run in the same directory as the source files.
+mkcrypto.sh <hostfile>  (remove the angular brackets when using the command)
+
+# To remove keys and certificates
+rmcrypto.sh
+
+# For any queries, please email me at hikushalhere@yahoo.co.in
